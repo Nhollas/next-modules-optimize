@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  experimental: {
+    optimizePackageImports: ["@/components/ui"],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
